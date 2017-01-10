@@ -1,0 +1,59 @@
+body {
+	   font-family: 'Lato', sans-serif;
+	   font-weight: 300;
+            
+	  }
+h3,p  {text-align: center;
+    }
+.logo  {
+	      margin: 0;
+	      text-align: left;
+       }
+
+.name {
+	     padding-top: 30px;
+       text-align: right;
+      }
+
+.title-logo {
+	          margin-top: 20px;
+            }
+.bgimage {
+	        background-color: black;
+	        background-position: center;
+	        background-size: cover;
+	        height: 100px;
+        }
+.text-muted {
+	           color: #7d97ad;
+	           text-align: left;
+	           padding-top: 10px;
+	           padding-bottom: 20px;
+           }
+ .text-thin: {
+               font-weight: 100;
+             }
+
+ .img-responsive {
+                 	max-width: 100%;
+                 }
+.img {
+	    display: inline;
+     }
+footer {
+        text-align: right;
+        color: #737373;
+        font-family: georgia;
+      }
+
+
+@media (min-width: 0px) and (max-width: 800px) {
+.logo {
+	text-align: center;
+      }
+.name {
+	padding-top: 30px;
+	text-align: center;
+     }
+
+ }
